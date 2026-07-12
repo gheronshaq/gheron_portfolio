@@ -31,7 +31,7 @@ const Navbar = () => {
       </nav>
 
       <Button
-        href="../../assets/CV_Mochammad Gheron Shaquille.pdf"
+        href="../../assets/CV_Mochammd Gheron Shaquille.pdf"
         className="navbar__button"
         download
       >
