@@ -92,25 +92,28 @@
 /* ==============================
    Tombol CV — versi floating (muncul dari bawah layar)
    ============================== */
+/* ==============================
+   Tombol CV — versi floating (muncul dari bawah layar, kanan)
+   ============================== */
 .navbar__button--floating {
   position: fixed;
-  left: 50%;
+  right: 1.25rem;
   bottom: 6vh;
   z-index: 60;
   opacity: 0;
-  transform: translate(-50%, 150%);
+  transform: translateY(120%);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   border-radius: 999px;
   -webkit-tap-highlight-color: transparent;
   pointer-events: none;
   transition:
-    transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
-    opacity 0.3s ease;
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.4s ease;
 }
 
 .navbar--scrolled .navbar__button--floating {
   opacity: 1;
-  transform: translate(-50%, 0);
+  transform: translateY(0);
   pointer-events: auto;
 }
 
