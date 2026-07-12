@@ -50,7 +50,7 @@ const Navbar = () => {
         Download CV
       </Button>
 
-      {/* Tombol versi floating: muncul dari bawah layar saat discroll */}
+      {/* Tombol versi floating: muncul dari kanan bawah layar saat discroll */}
       <Button
         href={cvHref}
         className="navbar__button navbar__button--floating"
