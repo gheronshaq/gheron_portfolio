@@ -31,7 +31,7 @@ const Navbar = () => {
       </nav>
 
       <Button
-        href="../../assets/CV_Mochammd Gheron Shaquille.pdf"
+        href={`${import.meta.env.BASE_URL}CV_Mochammd Gheron Shaquille.pdf`}
         className="navbar__button"
         download
       >
