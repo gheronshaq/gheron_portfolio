@@ -1,0 +1,58 @@
+/* ==============================
+   Button Styles
+   ============================== */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.9rem 1.3rem;
+  border: 3px solid #111111;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+  box-shadow: 4px 4px 0 #111111;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #111111;
+}
+
+.button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #111111;
+}
+
+.button--dark,
+.button--primary {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.button--dark:hover,
+.button--dark:focus-visible,
+.button--primary:hover,
+.button--primary:focus-visible {
+  background-color: #ff6200;
+}
+
+.button--light,
+.button--outline {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.button--light:hover,
+.button--light:focus-visible,
+.button--outline:hover,
+.button--outline:focus-visible {
+  background-color: #002244;
+  color: #ffffff;
+}
