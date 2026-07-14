@@ -17,7 +17,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const cvHref = `${import.meta.env.BASE_URL}Mochammad Gheron Shaquille_CV.pdf`;
+  const cvHref = `${import.meta.env.BASE_URL}MochammadGheronShaquille_CV.pdf`;
 
   return (
     <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
